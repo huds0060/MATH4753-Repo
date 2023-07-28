@@ -7,11 +7,20 @@
 myhyper(iter = 100, N = 20, r = 12, n = 5)
 }
 \arguments{
-\item{n}{}
+\item{iter}{How many samples}
+
+\item{N}{Total size of population}
+
+\item{r}{number of possible successes in population}
+
+\item{n}{Total size of each sample taken from population}
 }
 \value{
 creates barplot of a hypergeometric trial
 }
 \description{
 myhyper
+}
+\examples{
+myhyper(iter=100,N=20,r=12,n=5)
 }

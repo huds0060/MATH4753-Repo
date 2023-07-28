@@ -21,4 +21,4 @@ mychisim <-function(iter = 1000, n = 10){     #These are default options for ite
 
 }
 
-windows();mychisim(iter = 10000, n = 10)
+#windows();mychisim(iter = 10000, n = 10)

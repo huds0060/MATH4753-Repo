@@ -1,14 +1,14 @@
 #' myhyper
 #'
-#' @param iter
-#' @param N
-#' @param r
-#' @param n
+#' @param iter How many samples
+#' @param N Total size of population
+#' @param r number of possible successes in population
+#' @param n Total size of each sample taken from population
 #'
 #' @return creates barplot of a hypergeometric trial
 #' @export
 #'
-#' @examples
+#' @examples myhyper(iter=100,N=20,r=12,n=5)
 myhyper=function(iter=100,N=20,r=12,n=5){
   # make a matrix to hold the samples
   #initially filled with NA's

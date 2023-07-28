@@ -7,11 +7,18 @@
 pareto(x, mn = "Pareto barplot", ...)
 }
 \arguments{
-\item{...}{}
+\item{x}{data}
+
+\item{mn}{main name}
+
+\item{...}{other stuff}
 }
 \value{
 returns Pareto Barplot of x with title mn
 }
 \description{
 Pareto Barplot Function
+}
+\examples{
+pareto(c(1,2,3,4),mn="Pareto Barplot")
 }

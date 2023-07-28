@@ -7,11 +7,14 @@
 findmode(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{vector of data}
 }
 \value{
 returns the mode of the vector inputted.
 }
 \description{
 findmode
+}
+\examples{
+findmode(c(1,2,1,3,4,1,1))
 }
